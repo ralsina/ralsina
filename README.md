@@ -29,9 +29,9 @@ Open source advocate & long‑form writer for 20+ years at [ralsina.me](https://
 
 ---
 
-## ⭐ Hero Projects
+## ⭐ Currently Active Projects
 
-### grafito
+### grafito [![grafito stars](https://img.shields.io/github/stars/ralsina/grafito?style=flat&label=%E2%AD%90&color=1f6feb&labelColor=0d1117)](https://github.com/ralsina/grafito)
 A clean, minimal web frontend for systemd `journald` logs — lightweight, fast to stand up, and intentionally uncluttered.
 
 Installation & docs: https://grafito.ralsina.me/
@@ -41,19 +41,12 @@ Single‑liner:
 curl -sSL https://grafito.ralsina.me/install.sh | sudo bash
 ```
 
-Manual example:
-```bash
-git clone https://github.com/ralsina/grafito
-cd grafito
-# Refer to docs for the exact run/build command.
-```
-
 Why: Focused log triage without adopting a full ELK-scale observability stack.  
-Status: Active • Stars: ~88 • License: MIT
+Status: Active • License: MIT • Source: https://github.com/ralsina/grafito
 
 ---
 
-### kv
+### kv [![kv stars](https://img.shields.io/github/stars/ralsina/kv?style=flat&label=%E2%AD%90&color=1f6feb&labelColor=0d1117)](https://github.com/ralsina/kv)
 Lean remote KVM tool (Crystal) emphasizing simplicity, speed, and low operational friction.
 
 Installation & docs: https://kv.ralsina.me/
@@ -63,15 +56,26 @@ Single‑liner:
 curl -sSL https://kv.ralsina.me/install.sh | sudo bash
 ```
 
-Manual example:
-```bash
-git clone https://github.com/ralsina/kv
-cd kv
-# crystal build src/kv.cr --release
-# ./kv   # Adjust per docs.
-```
+Design priorities: minimal latency • understandable code • pragmatic feature set  
+Status: Active • Source: https://github.com/ralsina/kv
 
-Design priorities: minimal latency • understandable code • pragmatic feature set
+---
+
+## 🧪 Upcoming Projects
+
+### mangrullo [![mangrullo stars](https://img.shields.io/github/stars/ralsina/mangrullo?style=flat&label=%E2%AD%90&color=1f6feb&labelColor=0d1117)](https://github.com/ralsina/mangrullo)
+Lightweight “watchtower‑style” monitoring experiment aimed at low‑resource or inexpensive setups.
+
+Status: Early prototype / exploratory • Tech: Crystal  
+Goal: Provide just‑enough visibility without a full monitoring stack.
+
+---
+
+### ToCry [![tocry stars](https://img.shields.io/github/stars/ralsina/tocry?style=flat&label=%E2%AD%90&color=1f6feb&labelColor=0d1117)](https://github.com/ralsina/tocry)
+Straightforward TODO / workflow lab for experimenting with lightweight personal process tooling.
+
+Status: Iterative experiment • Tech: JS  
+Focus: Simple flows over feature sprawl; a sandbox for workflow ideas.
 
 ---
 
@@ -86,10 +90,10 @@ Design priorities: minimal latency • understandable code • pragmatic feature
 
 | Project | Summary | Tech | Stars |
 |---------|---------|------|-------|
-| [kv](https://github.com/ralsina/kv) | Modern remote KVM (lean, fast) | Crystal | ![kv stars](https://img.shields.io/github/stars/ralsina/kv?style=flat&label=&color=1f6feb) |
-| [grafito](https://github.com/ralsina/grafito) | Clean web frontend for `journald` logs | HTML / JS | ![grafito stars](https://img.shields.io/github/stars/ralsina/grafito?style=flat&label=&color=1f6feb) |
-| [tocry](https://github.com/ralsina/tocry) | Straightforward TODO / workflow lab | JS | ![tocry stars](https://img.shields.io/github/stars/ralsina/tocry?style=flat&label=&color=1f6feb) |
-| [mangrullo](https://github.com/ralsina/mangrullo) | “Como un watchtower pero para gente pobre” (lightweight monitoring experiment) | Crystal | 0 |
+| [kv](https://github.com/ralsina/kv) | Modern remote KVM (lean, fast) | Crystal | ![kv stars](https://img.shields.io/github/stars/ralsina/kv?style=flat&label=%E2%AD%90&color=1f6feb&labelColor=0d1117) |
+| [grafito](https://github.com/ralsina/grafito) | Clean web frontend for `journald` logs | HTML / JS | ![grafito stars](https://img.shields.io/github/stars/ralsina/grafito?style=flat&label=%E2%AD%90&color=1f6feb&labelColor=0d1117) |
+| [tocry](https://github.com/ralsina/tocry) | Straightforward TODO / workflow lab | JS | ![tocry stars](https://img.shields.io/github/stars/ralsina/tocry?style=flat&label=%E2%AD%90&color=1f6feb&labelColor=0d1117) |
+| [mangrullo](https://github.com/ralsina/mangrullo) | “Como un watchtower pero para gente pobre” (lightweight monitoring experiment) | Crystal | ![mangrullo stars](https://img.shields.io/github/stars/ralsina/mangrullo?style=flat&label=%E2%AD%90&color=1f6feb&labelColor=0d1117) |
 
 Other exploration: [sepia](https://github.com/ralsina/sepia)
 
