@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main              # Change to 'master' if your repo uses master
+      - master
 
 jobs:
   build:
