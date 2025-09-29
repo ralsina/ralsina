@@ -3,24 +3,11 @@
 Seasoned, versatile developer crafting small, durable, well‑named tools.  
 Open source advocate & long‑form writer for 20+ years at [ralsina.me](https://ralsina.me).
 
-<!-- Dark theme badge ribbon -->
-<p align="left">
-  <a href="https://github.com/ralsina">
-    <img src="https://img.shields.io/github/followers/ralsina?label=Followers&logo=github&style=flat&color=1f6feb&labelColor=0d1117" alt="GitHub followers" />
-  </a>
-  <a href="https://github.com/ralsina?tab=repositories&sort=stargazers">
-    <img src="https://img.shields.io/badge/Public%20Repos-browse-1f6feb?style=flat&labelColor=0d1117" alt="Public Repositories" />
-  </a>
-  <a href="https://www.python.org/">
-    <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=flat&labelColor=0d1117" alt="Python" />
-  </a>
-  <a href="https://crystal-lang.org/">
-    <img src="https://img.shields.io/badge/Crystal-000000?logo=crystal&logoColor=white&style=flat&labelColor=0d1117" alt="Crystal" />
-  </a>
-  <a href="https://opensource.org/license/mit/">
-    <img src="https://img.shields.io/badge/License-MIT-2ea043?style=flat&labelColor=0d1117" alt="MIT License" />
-  </a>
-</p>
+[![Followers](https://img.shields.io/github/followers/ralsina?label=Followers&logo=github&style=flat&color=1f6feb&labelColor=0d1117)](https://github.com/ralsina)
+[![Public Repos](https://img.shields.io/badge/Public%20Repos-browse-1f6feb?style=flat&labelColor=0d1117)](https://github.com/ralsina?tab=repositories&sort=stargazers)
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=flat&labelColor=0d1117)](https://www.python.org/)
+[![Crystal](https://img.shields.io/badge/Crystal-000000?logo=crystal&logoColor=white&style=flat&labelColor=0d1117)](https://crystal-lang.org/)
+[![MIT License](https://img.shields.io/badge/License-MIT-2ea043?style=flat&labelColor=0d1117)](https://opensource.org/license/mit/)
 
 <!-- Animated contribution banner (light/dark aware once workflow + output branch exist) -->
 <p align="center">
@@ -31,11 +18,14 @@ Open source advocate & long‑form writer for 20+ years at [ralsina.me](https://
   </picture>
 </p>
 
-### 📊 Snapshot (Combined Metrics)
-
-<p align="center">
-  <img src="./metrics.svg" alt="Combined GitHub metrics (lowlighter)" />
-</p>
+<details>
+  <summary><strong>📊 Snapshot (Combined Metrics)</strong> (click to expand)</summary>
+  <br>
+  <p align="center">
+    <img src="./metrics.svg" alt="Combined GitHub metrics (lowlighter)" />
+  </p>
+  <p align="center"><em>Updated daily via GitHub Actions.</em></p>
+</details>
 
 ---
 
@@ -97,5 +87,5 @@ Seasoned developer (Python & Crystal) building small durable tools; writing sinc
 <!--
 SETUP NOTES:
 Snake: .github/workflows/snake.yml → outputs branch 'output' with snake SVGs.
-Metrics: .github/workflows/metrics.yml → commits metrics.svg to main (requires METRICS_TOKEN secret if default token insufficient).
+Metrics: .github/workflows/metrics.yml → commits metrics.svg to default branch (requires METRICS_TOKEN secret if default token insufficient).
 -->
