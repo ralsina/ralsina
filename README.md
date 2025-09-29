@@ -31,6 +31,12 @@ Open source advocate & long‑form writer for 20+ years at [ralsina.me](https://
   </picture>
 </p>
 
+### 📊 Snapshot (Combined Metrics)
+
+<p align="center">
+  <img src="./metrics.svg" alt="Combined GitHub metrics (lowlighter)" />
+</p>
+
 ---
 
 ### ⚙️ Craft & Approach
@@ -67,16 +73,6 @@ Read at: [ralsina.me](https://ralsina.me)
 ### 🧪 Philosophy (Short Form)
 
 Build small. Name well. Delete freely. Automate tedium. Leave code your future self won’t resent.
-
----
-
-### 📊 Snapshot (Combined Metrics)
-
-<p align="center">
-  <img src="./metrics.svg" alt="Combined GitHub metrics (lowlighter)" />
-</p>
-
-<!-- If metrics.svg has not appeared yet, run the metrics workflow manually from the Actions tab. -->
 
 ---
 
