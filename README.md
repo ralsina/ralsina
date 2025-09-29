@@ -29,6 +29,52 @@ Open source advocate & long‑form writer for 20+ years at [ralsina.me](https://
 
 ---
 
+## ⭐ Hero Projects
+
+### grafito
+A clean, minimal web frontend for systemd `journald` logs — lightweight, fast to stand up, and intentionally uncluttered.
+
+Installation & docs: https://grafito.ralsina.me/
+
+Single‑liner:
+```bash
+curl -sSL https://grafito.ralsina.me/install.sh | sudo bash
+```
+
+Manual example:
+```bash
+git clone https://github.com/ralsina/grafito
+cd grafito
+# Refer to docs for the exact run/build command.
+```
+
+Why: Focused log triage without adopting a full ELK-scale observability stack.  
+Status: Active • Stars: ~88 • License: MIT
+
+---
+
+### kv
+Lean remote KVM tool (Crystal) emphasizing simplicity, speed, and low operational friction.
+
+Installation & docs: https://kv.ralsina.me/
+
+Single‑liner:
+```bash
+curl -sSL https://kv.ralsina.me/install.sh | sudo bash
+```
+
+Manual example:
+```bash
+git clone https://github.com/ralsina/kv
+cd kv
+# crystal build src/kv.cr --release
+# ./kv   # Adjust per docs.
+```
+
+Design priorities: minimal latency • understandable code • pragmatic feature set
+
+---
+
 ### ⚙️ Craft & Approach
 
 - Current focus: **Python** · **Crystal**  
