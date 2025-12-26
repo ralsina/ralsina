@@ -63,6 +63,15 @@ Status: Active • Source: https://github.com/ralsina/kv
 
 ## 🧪 Upcoming Projects
 
+### Pasto [![pasto stars](https://img.shields.io/github/stars/ralsina/pasto?style=flat&label=%E2%AD%90&color=1f6feb&labelColor=0d1117)](https://github.com/ralsina/pasto)
+The best pastebin ever. AI integration, API, SSH, zero-knowledge encryption and much more.
+
+Status: Early prototype / exploratory • Tech: Crystal  
+Goal: Maximalist but with an unobtrusive UX so you can grow into it.
+
+---
+
+
 ### mangrullo [![mangrullo stars](https://img.shields.io/github/stars/ralsina/mangrullo?style=flat&label=%E2%AD%90&color=1f6feb&labelColor=0d1117)](https://github.com/ralsina/mangrullo)
 Lightweight “watchtower‑style” monitoring experiment aimed at low‑resource or inexpensive setups.
 
