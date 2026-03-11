@@ -11,19 +11,8 @@ Open source advocate & long‑form writer for 20+ years at [ralsina.me](https://
 
 <!-- Animated contribution banner (light/dark aware once workflow + output branch exist) -->
 <p align="center">
-  <picture>
-    <source srcset="https://ralsina.me/github-status.svg">
-  </picture>
+    <img src="https://ralsina.me/github-status.svg">
 </p>
-
-<details>
-  <summary><strong>📊 Snapshot (Combined Metrics)</strong> (click to expand)</summary>
-  <br>
-  <p align="center">
-    <img src="./metrics.svg" alt="Combined GitHub metrics (lowlighter)" />
-  </p>
-  <p align="center"><em>Updated daily via GitHub Actions.</em></p>
-</details>
 
 ---
 
