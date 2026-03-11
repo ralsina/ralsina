@@ -12,9 +12,7 @@ Open source advocate & long‑form writer for 20+ years at [ralsina.me](https://
 <!-- Animated contribution banner (light/dark aware once workflow + output branch exist) -->
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ralsina/ralsina/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ralsina/ralsina/output/github-contribution-grid-snake.svg">
-    <img alt="Animated contribution graph snake" src="https://raw.githubusercontent.com/ralsina/ralsina/output/github-contribution-grid-snake.svg">
+    <source srcset="https://ralsina.me/github-status.svg">
   </picture>
 </p>
 
